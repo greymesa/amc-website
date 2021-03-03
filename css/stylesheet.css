@@ -54,7 +54,7 @@ p {
 }
 
 .button {
-	background-color: #4CAF50; /* Green */
+	background-color: #4589ff; 
 	border: none;
 	color: white;
 	padding: 12px;
@@ -115,7 +115,7 @@ p {
 	display: inline-block;
 	margin: 20px 15px 0 15px;
 	padding: 2px 0;
-	background-color: rgba(15, 199, 209, 0.75);
+	background-color: #4589ff;
 	font-size: 1em;
 	color: white;
 	text-align: center;
@@ -127,7 +127,7 @@ p {
 	font-weight: bold;
 	padding: 1px 4px;
 	border-radius: 3px;
-	background: rgba(9, 150, 158, 0.7);
+	background: #4589ff;
 	margin: 0 2px;
 }
 
