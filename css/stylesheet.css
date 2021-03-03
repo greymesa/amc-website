@@ -70,10 +70,16 @@ p {
 
 .amc {
 	font-family: 'Princess Sofia', cursive;
-	font-size: 40px;
+	font-size: large;
 	color: white;
   }
 
+.disc {
+
+	color: white;
+	font-size: medium;
+
+}
 
 @-webkit-keyframes logo {
 	0% {
