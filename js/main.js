@@ -1,6 +1,6 @@
 // If you don't want the particles, change the following to false:
 const doParticles = true;
-const players = [];
+var players = [];
 var clicked = false;
 
 function getWidth() { // credit to travis on stack overflow
@@ -97,6 +97,7 @@ $(document).ready(()=>{
       if (result.online) {
         $(".count").html(result.players.now);
         $.get(`https://mcapi.us/server/query?ip=${ip}&port=${port}`, (queryResult)=>{
+          players = [];
           if (queryResult.players.list.length > 10) {
             for (var i = 0; i < 10; i++) {
               players.push(queryResult.players.list[i]);
