@@ -42,7 +42,7 @@ p {
 }
 
 .logo img {
-	width: 225px; 
+	width: 128px; 
 	-webkit-animation-name: logo;
 	        animation-name: logo;
 	-webkit-animation-duration: 5s;
@@ -54,7 +54,7 @@ p {
 }
 
 .button {
-	background-color: #4589ff; 
+	background-color: #8910aa; 
 	border: none;
 	color: white;
 	padding: 12px;
@@ -64,19 +64,18 @@ p {
 	font-size: 16px;
 	margin: 4px 2px;
 	cursor: pointer;
-
 	border-radius: 8px;
   }
 
 .amc {
-	font-family: 'Princess Sofia', cursive;
-	font-size: 50px;
+	font-family: 'Old English Text MT';
+	font-size: 100px;
 	color: white;
   }
 
 .disc {
-
 	color: white;
+	font-family: 'Lucida Sans';
 	font-size: 25px;
 
 }
@@ -115,7 +114,7 @@ p {
 	display: inline-block;
 	margin: 20px 15px 0 15px;
 	padding: 2px 0;
-	background-color: #4589ff;
+	background-color: #8910aa;
 	font-size: 1em;
 	color: white;
 	text-align: center;
@@ -127,7 +126,7 @@ p {
 	font-weight: bold;
 	padding: 1px 4px;
 	border-radius: 3px;
-	background: #4589ff;
+	background: #a517cc;
 	margin: 0 2px;
 }
 
@@ -135,6 +134,12 @@ p {
     position: absolute;
     bottom: 3px;
     left: 3px;
+}
+
+.footer-right {
+    position: relative;
+	right: 3px;
+    bottom: 3px;
 }
 
 .back {
@@ -149,6 +154,11 @@ p {
 
 .ip {
 	cursor: pointer;
+}
+
+.ip:hover {
+	transition: all 0.1s ease;
+	background-color: #8910aa;
 }
 
 .items {
@@ -202,7 +212,6 @@ p {
 	margin: 0;
 	padding: 0;
 }
-
 
 @media(min-width: 400px) {
 	.logo img {
