@@ -42,7 +42,10 @@ p {
 }
 
 .logo img {
-	width: 128px; 
+	width: auto;
+	height: auto;
+	max-width: 250px;
+	max-height: 250px;
 	-webkit-animation-name: logo;
 	        animation-name: logo;
 	-webkit-animation-duration: 5s;
