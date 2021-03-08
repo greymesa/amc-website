@@ -55,20 +55,6 @@ p {
 	-webkit-animation-timing-function: ease-in-out;
 	        animation-timing-function: ease-in-out;
 }
-.vote img {
-	width: auto;
-	height: auto;
-	max-width: 150px;
-	max-height: 150px;
-	-webkit-animation-name: logo;
-	        animation-name: logo;
-	-webkit-animation-duration: 5s;
-	        animation-duration: 5s;
-	-webkit-animation-iteration-count: infinite;
-	        animation-iteration-count: infinite;
-	-webkit-animation-timing-function: ease-in-out;
-	        animation-timing-function: ease-in-out;
-}
 .button {
 	background-color: #8910aa;
 	border: none;
