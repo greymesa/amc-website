@@ -1,4 +1,5 @@
 # amc
+[![CodeFactor](https://www.codefactor.io/repository/github/yeetedmeme/amc-website/badge)](https://www.codefactor.io/repository/github/yeetedmeme/amc-website)
 minecraft server website
 
 Website for my 2nd favorite mc server!
